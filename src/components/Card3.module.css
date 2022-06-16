@@ -1,0 +1,45 @@
+.img {
+  width: 100%;
+  margin-top: -28px;
+  z-index: -1;
+}
+
+.div {
+  width: 50%;
+}
+
+.title.blue {
+  position: relative;
+  top:-35%;
+  left: 40%;
+  color: hsl(198, 62%, 26%);
+}
+
+.title.green{
+  position: relative;
+  top:-35%;
+  left: 38%;
+  color: hsl(167, 40%, 24%);
+}
+
+.p.blue {
+  position: relative;
+  top:-32%;
+  width:40%;
+  text-align: center;
+  line-height: 30px;
+  left: 30%;
+  color: hsl(198, 62%, 26%);
+}
+
+.p.green {
+  position: relative;
+  top:-32%;
+  width:40%;
+  text-align: center;
+  line-height: 30px;
+  left: 30%;
+  color: hsl(167, 40%, 24%);
+}
+
+

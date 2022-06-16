@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+.card {
+  width: 50%;
+}
+
+.title {
+  position: relative;
+  width: 40%;
+  font-size: 40px;
+  top:200px;
+  left:200px;
+  
+  font-family: 'Fraunces', serif;
+}
+
+.parag {
+    font-family: 'Barlow', sans-serif;
+    position: relative;
+    top:240px;
+    left: 200px;
+    width: 60%;
+}
+
+.p {
+  position: relative;
+  top:270px;
+  left:200px;
+  font-family: 'Fraunces';
+  width: 120px;
+}
+
+.p:hover {
+  text-decoration: underline;
+  text-decoration-color: hsl(7, 99%, 70%);
+  text-decoration-thickness: 8px;
+  cursor: pointer;
+}

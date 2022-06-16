@@ -1,0 +1,36 @@
+.client {
+  margin-top: 100px;
+  width: 500px;
+}
+
+.img {
+  border-radius: 70px;
+  width: 80px;
+}
+
+.p {
+  width: 330px;
+  text-align: center;
+  position: relative;
+  left: -7em;
+  line-height: 30px;
+  margin-top: 50px;
+  color: hsl(232, 10%, 55%);
+  font-family: 'Barlow', sans-serif;
+}
+
+.name {
+  position: relative;
+  left:-1em;
+  top: 2em;
+  font-family: 'Fraunces', serif;
+}
+
+.job {
+  position: relative;
+  top: 3em;
+  left: -2.4em;
+  color: hsl(210, 4%, 67%);
+  font-family: 'Barlow', sans-serif;
+  font-size: 18px;
+}

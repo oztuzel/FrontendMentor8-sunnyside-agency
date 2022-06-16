@@ -1,0 +1,129 @@
+main {
+  position: relative;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+body {
+  margin:0px; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --dark-desaturated-cyan: hsl(167, 40%, 24%);  /* (graphic design text) */
+  --dark-blue: hsl(198, 62%, 26%);              /* (photography text) */
+  --dark-moderate-cyan : hsl(168, 34%, 41%);        /* (footer) */
+
+
+  --very-dark-desaturated-blue: hsl(212, 27%, 19%);
+  --very-dark-grayish-blue: hsl(213, 9%, 39%);
+  --dark-grayish-blue: hsl(232, 10%, 55%);
+  --grayish-blue: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header__h1 {
+  position: absolute;
+  top:3em;
+  left:35%;
+  color: var(--white);
+  font-family: 'Fraunces', serif;
+  letter-spacing: 8px;
+  font-size: 50px;
+}
+
+.arrowDown {
+  position: absolute;
+  top:27em;
+  left:49%;
+  height: 140px;
+}
+
+.img {
+  z-index: -1;
+  position: relative;
+  width: 100%;
+  top: -100px;
+  left: 0px;
+}
+
+.cards {
+  position: relative;
+  top: -105px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.cards3 {
+  position: relative;
+  top: -105px;
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.testimonial__container {
+  position: relative;
+
+}
+
+.client__header {
+  position: relative;
+  top:-5em;
+  left:40%;
+  width: 500px;
+  color: var(--dark-grayish-blue);
+  font-family: 'Barlow', sans-serif;
+  letter-spacing: 5px;
+}
+
+.testimonial{
+  height: 500px;
+  display: flex;
+  position: relative;
+  top:-9em;
+  left: 13.5em;
+  justify-content: center;
+  width: 100%;
+}
+
+.photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos__image{
+  width: 25%;
+}
+
+@media (max-width:700px) {
+
+  .img {
+    position: relative;
+    top: 0px
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    height: fit-content;
+  }
+}
+
+
+
+
+

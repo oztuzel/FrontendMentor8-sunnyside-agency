@@ -1,0 +1,104 @@
+.navbar {
+  display: flex;
+}
+
+.image {
+  width: 130px;
+  height: fit-content;
+  position: relative;
+  left:30px;
+  top: 40px;
+}
+
+.buttonDiv {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.button {
+  margin-right: 15px;
+  width: 100px;
+  text-align: center;
+  height: 28px;
+  padding-top: 10px;
+  top:20px;
+  color: white;
+  cursor:pointer;
+}
+
+.button:hover{
+  border-radius: 20px;
+  background-color:#64c4ed;
+  
+}
+
+.buttonContact {
+  
+  margin-right: 15px;
+  width: 100px;
+  text-align: center;
+  height: 28px;
+  padding-top: 10px;
+  top:20px;
+  color: black;
+  cursor:pointer;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.buttonContact:hover {
+  border-radius: 20px;
+  color: white;
+  background-color:#64c4ed;
+}
+
+.icon {
+  display: none;
+  width: 40px;
+  height: 40px;
+}
+
+@media (max-width:700px) {
+
+  
+  .icon {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 40%;
+    top:20px;
+  }
+
+  .buttonDiv {
+    display: none;
+  }
+
+  .buttonDivActive {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    top:100px;
+    left:-50px;
+    width: 100%;
+    align-items: center;
+    z-index: 1;
+    height: 250px;
+  }
+
+  .button {
+    color: hsl(213, 9%, 39%);
+    margin-bottom: 0px;
+    font-family: 'Barlow', sans-serif;
+  }
+
+
+
+  .buttonContact{
+    background-color: hsl(51, 100%, 49%);
+    color: black;
+  }
+}
