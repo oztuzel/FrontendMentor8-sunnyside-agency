@@ -42,4 +42,32 @@
   color: hsl(167, 40%, 24%);
 }
 
+@media (max-width:700px) {
+
+  .div {
+    width: 100%;
+    height: 530px;
+  }
+
+  .title.blue {
+    top:-250px;
+    left: 35%;
+  }
+
+  .p.blue {
+    top:-230px;
+  }
+
+
+  .title.green {
+    top:-250px;
+    left: 35%;
+  }
+
+  .p.green {
+    top:-230px;
+  }
+
+}
+
 

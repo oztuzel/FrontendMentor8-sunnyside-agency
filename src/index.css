@@ -112,7 +112,16 @@ code {
 
   .img {
     position: relative;
-    top: 0px
+    z-index: -1;
+    top: -25px;
+  }
+
+  .header__h1 {
+    top:1.5em;
+    left:20%;
+    width: 60%;
+    font-size: 35px;
+    text-align: center;
   }
 
   .cards {
@@ -121,6 +130,33 @@ code {
     width: 200%;
     height: fit-content;
   }
+
+  .arrowDown {
+    top:11em;
+    height: 70px;
+  }
+
+  .cards {
+    top:50px;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .testimonial {
+    flex-direction: column;
+    height: 1000px;
+    padding-top: 200px;
+  }
+
+  .client__header {
+    top:30px;
+    left: 20%;
+  }
+
+  .photos__image {
+    width: 50%;
+  }
+
 }
 
 

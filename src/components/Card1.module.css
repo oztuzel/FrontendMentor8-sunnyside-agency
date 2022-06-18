@@ -37,3 +37,29 @@
   text-decoration-thickness: 8px;
   cursor: pointer;
 }
+
+
+@media (max-width:700px) {
+
+  .card{
+    width: 100%;
+  }
+
+  .title {
+    width: 60%;
+    text-align: center;
+    left: 20%;
+    top:0;
+  }
+
+  .parag {
+    top:10%;
+    width: 90%;
+    left: 5%;
+  }
+
+  .p {
+    top:15%;
+    left: 40%;
+  }
+}

@@ -19,18 +19,18 @@ const images = {
   mobileStandout: require('./mobile/image-stand-out.jpg'),
   mobileTransform: require('./mobile/image-transform.jpg'),
 
-  arrowDown: require('./icon-arrow-down.svg').default,
-  iconFacebook: require('./icon-facebook.svg').default,
-  hamburger: require('./icon-hamburger.svg').default,
-  iconInstagram: require('./icon-instagram.svg').default,
-  iconPinterest: require('./icon-pinterest.svg').default,
-  iconTwitter: require('./icon-twitter.svg').default,
+  arrowDown: require('./icon-arrow-down.svg'),
+  iconFacebook: require('./icon-facebook.svg'),
+  hamburger: require('./icon-hamburger.svg'),
+  iconInstagram: require('./icon-instagram.svg'),
+  iconPinterest: require('./icon-pinterest.svg'),
+  iconTwitter: require('./icon-twitter.svg'),
   
   emily: require('./image-emily.jpg'),
   jennie: require('./image-jennie.jpg'),
   thomas: require('./image-thomas.jpg'),
 
-  logo: require('./logo.svg').default,
+  logo: require('./logo.svg'),
 }
 
 export default images

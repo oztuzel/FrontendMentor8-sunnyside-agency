@@ -4,7 +4,7 @@ import Card1 from './components/Card1';
 import Card2 from './components/Card2';
 import Card3 from './components/Card3';
 import images from './images/images';
-import { Fragment } from 'react';
+import React, {Fragment} from 'react';
 import Client from './components/Client';
 import Footer from './components/Footer';
 
